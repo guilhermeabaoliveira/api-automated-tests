@@ -2,6 +2,8 @@
 
 Python tests for selected user and post endpoints of JSONPlaceholder, using Pytest and Requests.
 
+[Execution record](docs/verification.md) · [Run tests](#setup-and-execution)
+
 [English](#scope) · [Português](#automação-de-testes-de-api)
 
 ## Scope
@@ -53,7 +55,7 @@ To run one file:
 python -m pytest test_users.py -v
 ```
 
-Results appear in the terminal. No coverage report or recorded execution result is included.
+Results appear in the terminal. A [dated execution record](docs/verification.md) is available. No coverage report is included.
 
 ## Files
 
@@ -108,7 +110,7 @@ Para executar somente os testes de usuários:
 python -m pytest test_users.py -v
 ```
 
-Os resultados aparecem no terminal. O repositório não inclui relatório de cobertura nem resultado de execução registrado.
+Os resultados aparecem no terminal. Um [registro datado de execução](docs/verification.md) está disponível. O repositório não inclui relatório de cobertura.
 
 ## Organização e limites
 
